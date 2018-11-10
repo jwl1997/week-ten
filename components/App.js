@@ -25,7 +25,7 @@ export default {
   methods: {
     updateCurrentChart: function(newChart) {},
     change: function(newChart){
-      this.charts(currentChart)
+      this.charts(newChart)
     }
   },
   firebase: {
