@@ -1,4 +1,4 @@
-//import firebase from 'firebase';
+import firebase from "firebase";
 var db = firebase
   .initializeApp({
     databaseURL: "https://awesome-56c60.firebaseio.com"
@@ -24,8 +24,8 @@ export default {
   },
   methods: {
     updateCurrentChart: function(newChart) {},
-    change: function(newChart){
-      this.charts(newChart)
+    change: function(newChart) {
+      this.charts(newChart);
     }
   },
   firebase: {
